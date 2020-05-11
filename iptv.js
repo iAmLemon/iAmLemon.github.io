@@ -6,7 +6,7 @@ new DPlayer({
         quality: [
             {
                 name: 'CCTV1',
-                url: 'http://live-temp-litchi-hls-yf.jstv.com/live/zhibo-cctv1gq/online.m3u8',
+                url: '26533.m3u8',
                 type: 'hls',
             },
             {
