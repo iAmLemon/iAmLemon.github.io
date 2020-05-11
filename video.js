@@ -6,5 +6,5 @@ new DPlayer({
         pic: 'http://5b0988e595225.cdn.sohucs.com/images/20191018/ed1d38a5594142bbb938bba7d34a3c31.jpeg',
         
     },
-    logo:'http://i0.hdslb.com/bfs/active/520da726ae420bde8ab1d908c98ae4fd3a4ac449.png'
+    
 });
