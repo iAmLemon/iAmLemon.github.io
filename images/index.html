@@ -1,19 +1,33 @@
-﻿<html>
+<html>
     <head>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="HDM源">
         <meta name="description" content="H动漫源整合">
-        <title>Bangumi H 吖</title>
+        <script>
+        function password() { 
+        var testV = 1; 
+        var pass1 = prompt('请输入密码:',''); 
+        while (testV < 3) { if (!pass1) history.go(-1); 
+        if (pass1 == "zl") {
+            alert('密码正确!'); break; } testV+=-1; var pass1 = prompt('密码错误!请重新输入:'); } 
+            if (pass1!="password" & testV ==3) history.go(-1); return " "; } 
+            document.write(password()); 
+         </script>
+        <title>H动漫</title>
         <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
-        <script  charset="utf-8" src="https://bangumi.ml/js/channels.js"></script>
+        <script  charset="utf-8" src="js/channels.js"></script>
         
         <style>
             body{
-                background-image: url('1.jpg');
+                
                 background-size: 100% 100%;
-                text-decoration: none;
+            }
+            div{
+                 margin-top: 20px;
+                 text-decoration: none;
+text-align: center;
             }
             p{
                 font-size: 36px;
@@ -22,11 +36,8 @@
                 margin-top: 50px;
                 letter-spacing:25px;
             }
-            li{
-                background-color: #56aee950;
-                text-align: center;
-                width: 720px;
-            }
+
+            
 
         </style>
 
@@ -39,16 +50,7 @@
         <div id="playlist">
         </div>
         <script type="text/javascript">
-       
-           function password() { 
-        var testV = 1; 
-        var pass1 = prompt('欢迎访问 Bangumi.ml，请输入密码:',''); 
-        while (testV < 3) { if (!pass1) history.go(-1); 
-        if (pass1 == "zl") {
-            alert('密码 正确!'); break; } testV+=-1; var pass1 = prompt('密码 错误!请 重新输入:'); } 
-            if (pass1!="password" & testV ==3) history.go(-1); return " "; } 
-            document.write(password()); 
-            
+  
         var result="";
         var channelslist = $(channels);
 
@@ -56,17 +58,18 @@
             result += "<div><p>"+record.firstword+"</p>";
             result +="<ul>";
             $(record.list).each(function(i,r){
-                result += "<li>";
+               result += "<div >"; 
                 result += "<a  href="+r.url+">"+r.title+"</a>";
-                result += "</li>";   
+                 result += "</div>"; 
             });
             result+="</ul></div>";
 
         });        
 
         $("#playlist").html(result);
-
-
+    
+    
+        }
         
         function getQueryVariable(variable)
         {
@@ -82,8 +85,6 @@
         
 
         </script>
-
-        <script src="https://www.layuicdn.com/layer-v3.1.1/layer.js"></script>
 
     </body>
 </html>
