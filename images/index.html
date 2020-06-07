@@ -53,7 +53,7 @@
             result +="<ul>";
             $(record.list).each(function(i,r){
                 result += "<li>";
-                result += "<a  href=('"+r.url+"')>"+r.title+"</a>";
+                result += "<a  href="+r.url">"+r.title+"</a>";
                 result += "</li>";   
             });
             result+="</ul></div>";
