@@ -13,6 +13,7 @@
             body{
                 background-image: url('1.jpg');
                 background-size: 100% 100%;
+                text-decoration: none;
             }
             p{
                 font-size: 36px;
@@ -38,13 +39,12 @@
         <div id="playlist">
         </div>
         <script type="text/javascript">
-         var password = "";
+        var password = "";
         password = prompt('请输入密码 (欢迎访问Bangumi.ml):', '');
         if (password != 'zl') {
             alert("密码不正确,即将关闭...");
             window.opener = null; window.close();
         }
-
         var result="";
         var channelslist = $(channels);
 
@@ -63,21 +63,6 @@
         $("#playlist").html(result);
 
 
-        function play(m3u8address,title)
-        {
-            layer.open({
-                type: 2,
-                title:false,
-                closeBtn:0,
-                shadeClose: true, //点击遮罩关闭
-                area: ['60%', '100%'],
-                scrollbar: false,
-                content: 'play.html?address='+m3u8address
-
-            });
-            
-    
-        }
         
         function getQueryVariable(variable)
         {
