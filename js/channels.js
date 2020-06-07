@@ -31,5 +31,8 @@ var channels = [{
 	{
 		"title": "相思相爱ノート.THE.ANIMATION.Breast.2“おっぱい、おっぱい、おっぱい”",
 		"url": "https://bangumi.ml/m3u8/36413.m3u8"
+	},{
+		"title": "初犬2 ストレンジ カインド オブ ウーマン#2",
+		"url": "https://bangumi.ml/m3u8/12773.m3u8"
 	},]
 }];
