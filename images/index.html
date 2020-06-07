@@ -39,12 +39,16 @@
         <div id="playlist">
         </div>
         <script type="text/javascript">
-        var password = "";
-        password = prompt('请输入密码 (欢迎访问Bangumi.ml):', '');
-        if (password != 'zl') {
-            alert("密码不正确,即将关闭...");
-            window.opener = null; window.close();
-        }
+       
+           function password() { 
+        var testV = 1; 
+        var pass1 = prompt('欢迎访问 Bangumi.ml，请输入密码:',''); 
+        while (testV < 3) { if (!pass1) history.go(-1); 
+        if (pass1 == "zl") {
+            alert('密码 正确!'); break; } testV+=-1; var pass1 = prompt('密码 错误!请 重新输入:'); } 
+            if (pass1!="password" & testV ==3) history.go(-1); return " "; } 
+            document.write(password()); 
+            
         var result="";
         var channelslist = $(channels);
 
