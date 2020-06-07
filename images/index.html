@@ -5,7 +5,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="keywords" content="HDM源">
         <meta name="description" content="H动漫源整合">
-        <title>H动漫</title>
+        <title>动漫</title>
         <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
         <script  charset="utf-8" src="https://bangumi.ml/js/channels.js"></script>
         
@@ -53,7 +53,7 @@
             result +="<ul>";
             $(record.list).each(function(i,r){
                 result += "<li>";
-                result += "<a  onclick=play('"+r.url+"','"+r.title+"')>"+r.title+"</a>";
+                result += "<a  href=('"+r.url)>"+r.title+"</a>";
                 result += "</li>";   
             });
             result+="</ul></div>";
