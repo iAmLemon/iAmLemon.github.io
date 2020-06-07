@@ -1,0 +1,100 @@
+﻿<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="keywords" content="HDM源">
+        <meta name="description" content="H动漫源整合">
+        <title>H动漫</title>
+        <script src="https://cdn.bootcss.com/jquery/3.5.0/jquery.js"></script>
+        <script  charset="utf-8" src="js/channels.js"></script>
+        
+        <style>
+            body{
+                background-image: url('1.jpg');
+                background-size: 100% 100%;
+            }
+            p{
+                font-size: 36px;
+                font-weight: bolder;
+                text-align: center;
+                margin-top: 50px;
+                letter-spacing:25px;
+            }
+            li{
+                background-color: #56aee950;
+                text-align: center;
+                width: 720px;
+            }
+
+        </style>
+
+       
+
+
+    </head>
+    <body>
+    
+        <div id="playlist">
+        </div>
+        <script type="text/javascript">
+         var password = "zl";
+        password = prompt('请输入密码 (欢迎访问Bangumi.ml):', '');
+        if (password != '') {
+            alert("密码不正确,即将关闭...");
+            window.opener = null; window.close();
+        }
+
+        var result="";
+        var channelslist = $(channels);
+
+        channelslist.each(function(index,record){
+            result += "<div><p>"+record.firstword+"</p>";
+            result +="<ul>";
+            $(record.list).each(function(i,r){
+                result += "<li>";
+                result += "<a  onclick=play('"+r.url+"','"+r.title+"')>"+r.title+"</a>";
+                result += "</li>";   
+            });
+            result+="</ul></div>";
+
+        });        
+
+        $("#playlist").html(result);
+
+
+        function play(m3u8address,title)
+        {
+            layer.open({
+                type: 2,
+                title:false,
+                closeBtn:0,
+                shadeClose: true, //点击遮罩关闭
+                area: ['60%', '100%'],
+                scrollbar: false,
+                content: 'play.html?address='+m3u8address
+
+            });
+            
+    
+        }
+        
+        function getQueryVariable(variable)
+        {
+            var query = window.location.search.substring(1);
+            var vars = query.split("&");
+            for (var i=0;i<vars.length;i++) {
+                    var pair = vars[i].split("=");
+                    if(pair[0] == variable){return pair[1];}
+            }
+            return(false);
+        }
+        
+        
+
+        </script>
+
+        <script src="https://www.layuicdn.com/layer-v3.1.1/layer.js"></script>
+
+    </body>
+</html>
