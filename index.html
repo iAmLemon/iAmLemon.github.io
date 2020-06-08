@@ -1,0 +1,142 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>怪怪守护神 第12话 Bangumi.ml</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
+    <link rel="stylesheet" href="Dplayer/DPlayer.min.css">
+    <script src="Dplayer/DPlayer.min.js"></script>
+    
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+        body{
+            background-color: #fb729930;
+        }
+
+        .logo {
+            float: left;
+            margin-left: 39px;
+            margin-right: 50px;
+            width: 120px;
+            height: 60px;
+            background: url(logo.png) no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+
+        li {
+            float: left;
+
+        }
+
+        li a {
+            border-radius: 8px;
+            display: block;
+            margin: 9px 5px;
+            color: #fff;
+            text-align: center;
+            padding: 8px 10px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #ffffff50;
+        }
+
+        .active {
+            background-color: #4CAF5050;
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        style="background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);height: 58px; box-shadow:0px 1px 5px 0px #00a1d680;">
+        <ul>
+            <a class="logo" href="https://m.bilibili.com/"></a>
+            <li><a class="active" href="">主页</a></li>
+            <li><a href="https://bangumi.ml/images/">H 吖</a></li>
+            <li><a href="#news">未定义</a></li>
+        </ul>
+    </header>
+
+    <div style=" display: -webkit-flex;margin-top: 30px; ">
+        <div style="width:100px;"></div>
+        <div id="dplayer"></div>
+        <div style="width: 400px;border-radius: 20px;background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);margin: 10px 50px;">
+            <div>
+                <img style="width: 200px; border-radius: 5px;margin: 50px 72px 30px 72px ;box-shadow: 0 0 50px #fff "
+                    src="https://bangumi.ml/images/f35f5bca33f5ec2e2fca1de9396a37b18a7aab8f.png">
+                <div style="background-color: #ffffff50;padding-top: 10px;">
+                    <a style="padding-left: 40px;font-size: 24px;color: #00a1d6;" href="https://www.bilibili.com/bangumi/media/md28228265/"> 聆听者 / LISTENERS</a>
+                    <a style="font-size: 16px; color: #888;font-weight: bolder;">(2020)</a>
+                    <a  style="font-size: 15px;color: #ffa726;font-weight: bolder;padding-left: 18px;">2020年4月4日开播 连载中, 每周六 02:10更新</a>
+                    <a style="font-size: 18px;padding-left: 40px; color: #000000;">评分:</a> 
+                    <a style="font-size: 36px; font-weight: bolder;color: #fb7299;">7.8</a>  
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+
+    const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+    autoplay: false,
+    theme: '#03A9F4',
+    loop: true,
+    screenshot: true,
+    hotkey: true,
+    preload: 'auto',
+    volume: 0.7,
+    mutex: true,
+    video: {
+    url:
+    'https://gss3.baidu.com/6LZ0ej3k1Qd3ote6lo7D0j9wehsv/tieba-smallvideo/607272_03a568f7cd6c44902aed212263fe98d7.mp4',
+    pic: '',
+    type: 'auto',
+    },
+    contextmenu: [//自定义右键菜单
+    {
+    text: 'Bangumi',
+    link: 'https://github.com/DIYgod/DPlayer',
+    },
+
+    ],
+    highlight: [//自定义进度条提示点
+    {
+    time: 42,
+    text: 'OP_Start',
+    },
+    {
+    time: 132,
+    text: 'OP_End',
+    },
+    {
+    time: 1168,
+    text: 'ED_Start',
+    },
+    ],
+    });
+
+    </script>
+
+
+</body>
+
+</html>
