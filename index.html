@@ -1,9 +1,9 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>聆听者 / LISTENERS 第10话 Bangumi.ml</title>
+    <title>聆听者 / LISTENERS 第10话</title>
     <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
     <script src="https://cdn.bootcdn.net/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
     <link rel="stylesheet" href="Dplayer/DPlayer.min.css">
@@ -61,8 +61,26 @@
         .active {
             background-color: #4CAF5050;
         }
-        #jieshao{
-            margin: 50px 0;
+
+        #jieshao {
+            margin: 50px 50px 50px 10px;
+        }
+
+        #anniu li a {
+            border-radius: 8px;
+            display: block;
+            margin: 9px 5px;
+            color: #fff;
+            text-align: center;
+            padding: 8px 10px;
+            text-decoration: none;
+            background-color: #fb729980;
+            box-shadow: inset 2px -2px 5px #fb7299;
+        }
+
+        #anniu li a:hover {
+            background-color: #00a1d680;
+            box-shadow: inset 2px -2px 5px #00a1d680;
         }
     </style>
 </head>
@@ -79,28 +97,46 @@
     </header>
 
     <div style=" display: block;float: left;width: 100%;">
-       <div style="height: 30px;"></div>
-        <div style="padding: 50px;margin: 0 auto; width: 800px;background-color: #ffffff50;box-shadow: 0 0 100px #fb729950 ">
+        <div style="height: 30px;"></div>
+        <div
+            style="padding: 50px;margin: 0 auto; width: 800px;background-color: #ffffff50;box-shadow: 0 0 100px #fb729950 ">
             <div id="dplayer"></div>
             <div style="background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);margin: 50px 0px 0px;">
-            
-                <div style="background-color: #ffffff90;  display: flex;">
+
+                <div style="background-color: #ffffff90;  display: flex;box-shadow: inset 0 0 20px 20px #FEE0E9;">
                     <div id="tupian">
                         <img style="width: 200px;border-radius: 5px;margin: 38px 55px 35px 35px;box-shadow: 0 0 50px #abecd6;"
-                        src="https://bangumi.ml/images/f35f5bca33f5ec2e2fca1de9396a37b18a7aab8f.png">
-                        
+                            src="https://bangumi.ml/images/f35f5bca33f5ec2e2fca1de9396a37b18a7aab8f.png">
+
                     </div>
                     <div id="jieshao">
-                    <span style="font-size: 36px;color: #00a1d6;"
-                    href="https://www.bilibili.com/bangumi/media/md28228265/"> 聆听者 / LISTENERS</span>
-                    <span style="font-size: 16px; color: #88888880;font-weight: bolder;">(2020)</span>
-                    <div id="jieshao-zi">
-                        <span style="font-size: 16px;color: #ffa726;font-weight: bolder;">2020年4月4日开播 连载中,每周六 02:10更新</a>
-                        <span style="font-size: 18px;padding-left: 15px; color: #000000;">评分:</span>
-                        <span style="font-size: 36px; font-weight: bolder;color: #fb7299;">7.8</span>
+                        <span style="font-size: 36px;color: #00a1d6;"
+                            href="https://www.bilibili.com/bangumi/media/md28228265/"> 聆听者 / LISTENERS</span>
+                        <span style="font-size: 16px; color: #88888880;font-weight: bolder;">(2020)</span>
+                        <div id="jieshao-zi">
+                            <span style="font-size: 16px;color: #ffa726;font-weight: bolder;">2020年4月4日开播 连载中,每周六
+                                02:10更新</a>
+                                <span style="font-size: 18px;padding-left: 15px; color: #000000;">评分:</span>
+                                <span style="font-size: 36px; font-weight: bolder;color: #fb7299;">7.8</span>
+                        </div>
+                        <div id="anniu">
+                            <ul>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644631">01</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644632">02</a></li>
+                                <li><a href='https://bangumi.ml/bangumi/ep88644633'>03</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644634">04</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644635">05</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644636">06</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644637">07</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644638">08</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644639">09</a></li>
+                                <li><a href="https://bangumi.ml/">10</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644641">11</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644642">12</a></li>
+                            </ul>
+                        </div>
                     </div>
-                </div>
-                
+
                 </div>
 
             </div>
@@ -117,19 +153,19 @@
             autoplay: false,
             theme: '#03A9F4',
             loop: true,
-            screenshot: true,
             volume: 0.7,
             mutex: true,
             video: {
                 url:
-                    'https://apd-vliveachy.apdcdn.tc.qq.com/vmtt.tc.qq.com/1098_315dbb88b8469ea1c9707e72fbe6653e.f0.mp4?vkey=1E79BC8379468CF2DA3B5F6573B32E50E11544F2CF927B8CB9F14677EFA73D02DAE558E100A29072553C888B709B88CF6BCE0567A48D1CECB8DCFAD83D483715951E87AB8BBB27FAF667FF3E4A8425412714258F09AFFED5',
+                    'https://apd-vliveachy.apdcdn.tc.qq.com/vmtt.tc.qq.com/1098_315dbb88b8469ea1c9707e72fbe6653e.f0.mp4?vkey=7F35B6BCADA33F1709522606CD3E423A0145EEBD17F5F94F9FADDB1F0B30C9C8DB828CB96A5A461FD7C1B9659E63078701D4E697722741639C0771D411D645392F23AD7799C9C70E28F29C8C5C5F7C083A12B0E2B6A7A774',
                 pic: '',
                 type: 'auto',
             },
+
             contextmenu: [//自定义右键菜单
                 {
                     text: 'Bangumi',
-                    link: 'https://bangumi.ml/',
+                    link: 'https://github.com/DIYgod/DPlayer',
                 },
 
             ],
