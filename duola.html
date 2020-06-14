@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>[钉铛字幕组][Doraemon][607]大雄的黑洞&胖虎对机器胖虎</title>
+    <script src="https://cdn.bootcdn.net/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+    <script src="https://cdn.bootcdn.net/ajax/libs/hls.js/8.0.0-beta.3/hls.js"></script>
+    <link rel="stylesheet" href="Dplayer/DPlayer.min.css">
+    <script src="Dplayer/DPlayer.min.js"></script>
+    <script src="js/Baidu.js"></script>
+
+    <style>
+        * {
+            padding: 0;
+            margin: 0;
+            text-decoration: none;
+        }
+
+        body {
+            background-color: #fb729950;
+        }
+
+        .logo {
+            float: left;
+            margin-left: 39px;
+            margin-right: 50px;
+            width: 120px;
+            height: 60px;
+            background: url(logo.png) no-repeat;
+            background-position: 50% 50%;
+            background-size: cover;
+        }
+
+        ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+
+        }
+
+        li {
+            float: left;
+
+        }
+
+        li a {
+            border-radius: 8px;
+            display: block;
+            margin: 9px 5px;
+            color: #fff;
+            text-align: center;
+            padding: 8px 10px;
+            text-decoration: none;
+        }
+
+        li a:hover:not(.active) {
+            background-color: #ffffff50;
+        }
+
+        .active {
+            background-color: #4CAF5050;
+        }
+
+        #jieshao {
+            margin: 50px 50px 50px 10px;
+        }
+
+        #anniu li a {
+            border-radius: 8px;
+            display: block;
+            margin: 9px 5px;
+            color: #fff;
+            text-align: center;
+            padding: 8px 10px;
+            text-decoration: none;
+            background-color: #fb729980;
+            box-shadow: inset 2px -2px 5px #fb7299;
+        }
+
+        #anniu li a:hover {
+            background-color: #00a1d680;
+            box-shadow: inset 2px -2px 5px #00a1d680;
+        }
+    </style>
+</head>
+
+<body>
+    <header
+        style="background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);height: 58px; box-shadow:0px 1px 5px 0px #00a1d680;">
+        <ul>
+            <a class="logo" href="https://m.bilibili.com/"></a>
+            <li><a class="active" href="">主页</a></li>
+            <li><a href="https://bangumi.ml/images/">H 吖</a></li>
+            <li><a href="#news">未定义</a></li>
+        </ul>
+    </header>
+
+    <div style=" display: block;float: left;width: 100%;">
+        <div style="height: 30px;"></div>
+        <div
+            style="padding: 50px;margin: 0 auto; width: 800px;background-color: #ffffff50;box-shadow: 0 0 100px #fb729950 ">
+            <div id="dplayer"></div>
+            <div style="background-image: linear-gradient(60deg, #abecd6 0%, #fbed96 100%);margin: 50px 0px 0px;">
+
+                <div style="background-color: #ffffff90;  display: flex;box-shadow: inset 0 0 20px 20px #FEE0E9;">
+                    <div id="tupian">
+                        <img style="width: 200px;border-radius: 5px;margin: 38px 55px 35px 35px;box-shadow: 0 0 50px #abecd6;"
+                            src="https://bangumi.ml/images/f35f5bca33f5ec2e2fca1de9396a37b18a7aab8f.png">
+
+                    </div>
+                    <div id="jieshao">
+                        <a style="font-size: 36px;color: #00a1d6;"
+                            href="https://www.bilibili.com/bangumi/media/md28228265/">[Doraemon][607]</a>
+                        <span style="font-size: 16px; color: #88888880;font-weight: bolder;">(2020)</span>
+                        <div id="jieshao-zi">
+                            <span style="font-size: 16px;color: #ffa726;font-weight: bolder;">2020年6月13日更新 连载中,每周六
+                                18:00更新</a>
+                                <span style="font-size: 18px;padding-left: 15px; color: #000000;">评分:</span>
+                                <span style="font-size: 36px; font-weight: bolder;color: #fb7299;">9.5</span>
+                        </div>
+                        <div id="anniu">
+                            <ul>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644631">01</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644632">02</a></li>
+                                <li><a href='https://bangumi.ml/bangumi/ep88644633'>03</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644634">04</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644635">05</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644636">06</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644637">07</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644638">08</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644639">09</a></li>
+                                <li><a href="https://bangumi.ml/">10</a></li>
+                                <li><a href="https://bangumi.ml/">11</a></li>
+                                <li><a href="https://bangumi.ml/bangumi/ep88644642">12</a></li>
+                            </ul>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+
+    </div>
+
+    <script>
+
+
+        const dp = new DPlayer({
+            container: document.getElementById('dplayer'),
+            autoplay: false,
+            theme: '#03A9F4',
+            loop: true,
+            volume: 0.7,
+            mutex: true,
+            video: {
+                url:'https://pan.cn-east-1.tropcdn.com/26187/ULBCJih9_%5B%E9%92%89%E9%93%9B%E5%AD%97%E5%B9%95%E7%BB%84%5D%5BDoraemon%5D%5B607%5D%5B2020.06.14%5D%5B1080P%5D%5B%E7%AE%80%E6%97%A5%5D%E5%A4%A7%E9%9B%84%E7%9A%84%E9%BB%91%E6%B4%9E%26%E8%83%96%E8%99%8E%E5%AF%B9%E6%9C%BA%E5%99%A8%E8%83%96%E8%99%8E.mp4?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=DM5ELV66XUUXDZQ95H5S%2F20200614%2Fcn-east-1%2Fs3%2Faws4_request&X-Amz-Date=20200614T133744Z&X-Amz-Expires=60&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3B%20filename%3D%22%255B%25E9%2592%2589%25E9%2593%259B%25E5%25AD%2597%25E5%25B9%2595%25E7%25BB%2584%255D%255BDoraemon%255D%255B607%255D%255B2020.06.14%255D%255B1080P%255D%255B%25E7%25AE%2580%25E6%2597%25A5%255D%25E5%25A4%25A7%25E9%259B%2584%25E7%259A%2584%25E9%25BB%2591%25E6%25B4%259E%26%25E8%2583%2596%25E8%2599%258E%25E5%25AF%25B9%25E6%259C%25BA%25E5%2599%25A8%25E8%2583%2596%25E8%2599%258E.mp4%22&X-Amz-Signature=5ae80e89734c30f3b6f76bd325991d017c28d7d611da817313ea59b02fa6a918',
+                pic: '',
+                type: 'auto',
+            },
+
+            contextmenu: [//自定义右键菜单
+                {
+                    text: 'Bangumi',
+                    link: 'https://github.com/DIYgod/DPlayer',
+                },
+
+            ],
+            highlight: [//自定义进度条提示点
+                {
+                    time: 0,
+                    text: '',
+                },
+              
+            ],
+        });
+
+    </script>
+
+ 
+
+</body>
+
+</html>
