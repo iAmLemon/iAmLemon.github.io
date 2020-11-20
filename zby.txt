@@ -1,8 +1,8 @@
 央视频道,#genre#
-CCTV-1,http://liveplay-kk.rtxapp.com/live/program/live/cctv1hd/4000000/mnf.m3u8
+CCTV-1,http://liveplay-kk.rtxapp.com/live/program/live/cctv1hd/4000000/mnf.m3u8#http://ivi.bupt.edu.cn/hls/cctv1.m3u8
 CCTV-2,http://117.169.72.135:8080/PLTV/88888888/224/3221225631/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv2.m3u8
 CCTV-3,http://112.17.40.8:80/PLTV/88888888/224/3221226485/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv3hd/4000000/mnf.m3u8
-CCTV-4,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv4_2/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv4.m3u8
+CCTV-4,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv4_2/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv4.m3u8#http://ivi.bupt.edu.cn/hls/cctv4hd.m3u8
 CCTV-5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8#http://112.17.40.6:80/PLTV/88888888/224/3221226400/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv5hd/4000000/mnf.m3u8
 CCTV-5+HD,http://liveplay-kk.rtxapp.com/live/program/live/cctv5phd/4000000/mnf.m3u8
 CCTV-6,http://112.17.40.48:80/PLTV/88888888/224/3221226433/1.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv6hd/4000000/mnf.m3u8#http://112.17.40.7:80/PLTV/88888888/224/3221226487/1.m3u8#http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8#http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8
