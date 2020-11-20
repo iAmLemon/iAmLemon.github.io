@@ -1,25 +1,25 @@
-﻿CCTV-1,http://liveplay-kk.rtxapp.com/live/program/live/cctv1hd/4000000/mnf.m3u8
+央视频道,#genre#
+CCTV-1,http://liveplay-kk.rtxapp.com/live/program/live/cctv1hd/4000000/mnf.m3u8
 CCTV-2,http://117.169.72.135:8080/PLTV/88888888/224/3221225631/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv2.m3u8
 CCTV-3,http://112.17.40.8:80/PLTV/88888888/224/3221226485/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv3hd/4000000/mnf.m3u8
-CCTV4国际亚洲,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv4_2/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv4.m3u8
+CCTV-4,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv4_2/index.m3u8#http://ivi.bupt.edu.cn/hls/cctv4.m3u8
 CCTV-5,http://223.110.243.172/PLTV/3/224/3221227166/index.m3u8#http://112.17.40.6:80/PLTV/88888888/224/3221226400/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv5hd/4000000/mnf.m3u8
 CCTV-5+HD,http://liveplay-kk.rtxapp.com/live/program/live/cctv5phd/4000000/mnf.m3u8
 CCTV-6,http://112.17.40.48:80/PLTV/88888888/224/3221226433/1.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv6hd/4000000/mnf.m3u8#http://112.17.40.7:80/PLTV/88888888/224/3221226487/1.m3u8#http://ivi.bupt.edu.cn/hls/cctv6hd.m3u8#http://cctvalih5ca.v.myalicdn.com/live/cctv6_2/index.m3u8
 CCTV-7,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
 CCTV-8,https://cctvcnch5ca.v.wscdns.com/live/cctv8_2/index.m3u8#http://223.110.243.171/PLTV/3/224/3221227204/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv8hd/4000000/mnf.m3u8
 CCTV-9,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225929/index.m3u8
-CCTV-10,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv10hd/4000000/mnf.m3u8
+CCTV-10,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv10hd/4000000/mnf.m3u8#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8
 CCTV-11,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225815/1.m3u8
 CCTV-13,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv13_2/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226193/index.m3u8
 CCTV-14,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
 CCTV7国防军事,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
 CCTV8电视剧,https://cctvcnch5ca.v.wscdns.com/live/cctv8_2/index.m3u8
 CCTV9记录,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
-CCTV10蓝光,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8
-CCTV10科教,https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8
 CCTV11戏曲,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225815/1.m3u8
 CCTV13新闻,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv13_2/index.m3u8
 CCTV14少儿,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
+地方卫视,#genre#
 湖南卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/4000000/mnf.m3u8
 江苏卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/jswshd/4000000/mnf.m3u8
 浙江卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/zjwshd/4000000/mnf.m3u8
@@ -46,10 +46,12 @@ CCTV14少儿,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
 宁夏卫视,http://39.134.65.162/PLTV/88888888/224/3221225579/index.m3u8
 新疆卫视,http://223.110.243.136:80/PLTV/3/224/3221225523/index.m3u8
 内蒙古卫视,http://39.134.65.162/PLTV/88888888/224/3221225577/index.m3u8
+凤凰频道,#genre#
 凤凰中文 HD,http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8
 凤凰资讯 HD,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
 凤凰香港 HD,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8
 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+4K影院,#genre#
 CCTV4K,http://112.17.40.12/PLTV/88888888/224/3221226758/index.m3u8
 纯享4K,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/1.m3u8
 CHC高清电影,http://ivi.bupt.edu.cn/hls/chchd.m3u8
