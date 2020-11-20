@@ -11,20 +11,16 @@ CCTV-8,https://cctvcnch5ca.v.wscdns.com/live/cctv8_2/index.m3u8#http://223.110.2
 CCTV-9,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225929/index.m3u8
 CCTV-10,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8#http://liveplay-kk.rtxapp.com/live/program/live/cctv10hd/4000000/mnf.m3u8#http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225814/1.m3u8#https://cctvalih5ca.v.myalicdn.com/live/cctv10_2/index.m3u8
 CCTV-11,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225815/1.m3u8
+http://ivi.bupt.edu.cn/hls/cctv12hd.m3u8
 CCTV-13,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv13_2/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226193/index.m3u8
 CCTV-14,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
-CCTV7国防军事,http://ivi.bupt.edu.cn/hls/cctv7.m3u8
-CCTV8电视剧,https://cctvcnch5ca.v.wscdns.com/live/cctv8_2/index.m3u8
-CCTV9记录,http://ivi.bupt.edu.cn/hls/cctv9.m3u8
-CCTV11戏曲,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221225815/1.m3u8
-CCTV13新闻,https://cctvtxyh5ca.liveplay.myqcloud.com/live/cctv13_2/index.m3u8
-CCTV14少儿,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
 地方卫视,#genre#
-湖南卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/4000000/mnf.m3u8
+北京卫视 HD,http://ivi.bupt.edu.cn/hls/btv1hd.m3u8
+湖南卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/hnwshd/4000000/mnf.m3u8#http://ivi.bupt.edu.cn/hls/hunantv.m3u8
 江苏卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/jswshd/4000000/mnf.m3u8
 浙江卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/zjwshd/4000000/mnf.m3u8
 上海东方 HD,http://liveplay-kk.rtxapp.com/live/program/live/hddfws/4000000/mnf.m3u8
-广东卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/gdwshd/4000000/mnf.m3u8
+广东卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/gdwshd/4000000/mnf.m3u8#http://ivi.bupt.edu.cn/hls/gdtv.m3u8
 深圳卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/szwshd/4000000/mnf.m3u8
 天津卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/tjwshd/4000000/mnf.m3u8
 安徽卫视 HD,http://liveplay-kk.rtxapp.com/live/program/live/ahwshd/4000000/mnf.m3u8
@@ -50,7 +46,6 @@ CCTV14少儿,https://cctvalih5ca.v.myalicdn.com/live/cctvchild_2/index.m3u8
 凤凰中文 HD,http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226368/index.m3u8
 凤凰资讯 HD,http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8#http://112.17.40.140/PLTV/88888888/224/3221226491/index.m3u8
 凤凰香港 HD,http://223.110.245.136/PLTV/3/224/3221226975/index.m3u8#http://183.207.249.34/PLTV/3/224/3221226975/index.m3u8
-香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
 4K影院,#genre#
 CCTV4K,http://112.17.40.12/PLTV/88888888/224/3221226758/index.m3u8
 纯享4K,http://ott.fj.chinamobile.com/PLTV/88888888/224/3221226825/1.m3u8
